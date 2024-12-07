@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Tech of Today</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="home" class="image-container">
+    <img src="images\logo.png" alt="Logo">
+    <div class="text-overlay">
+      <h1>Tech of Today</h1>
+      <p>Explore the wonders of today's technology.</p>
+      <br><br>
+      <button class="overview-button" onclick="window.location.href='#overview'">Overview</button>
+      <button class="overview-button" onclick="window.location.href='#topics'">Topics</button>
+      <button class="overview-button" onclick="window.location.href='../about/about.html'">About Us</button>
+  </div>
+  </div>
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <div class="dropdown">
+      <a href="#topics">Topics
+        <span class="dropdown-icon">&#x25BC;</span>
+      </a>
+      <div class="dropdown-content">
+        <a href="../topic-1/topic-1.html">Computing Disciplines and Majors</a>
+        <a href="../topic-2/topic-2.html">Data, Information, Information Systems</a>
+        <a href="../topic-3/topic-3.html">Number Systems</a>
+        <a href="../topic-4/topic-4.html">Computer Hardware and Software</a>
+        <a href="../topic-5/topic-5.html">Different Types Of Motherboards</a>
+        <a href="../topic-6/topic-6.html">Different Types Of Computers</a>
+      </div>
+    </div>
+    <div class="navbar-right">
+      <a href="../about/about.html">About Us</a>
+    </div>
+  </nav>
+  <div class="center-container">
+    <h1 id="overview">Overview</h1>
+    <p>Online resource to educate users about core topics in technology and computing.
+    </p>
+    <div id="topics" class="topic-section">
+      <h1>Topics</h1>
+      <div class="topic-container">
+        <div class="box">
+          <img src="images\topic-1.png" alt="Topic 1 Image">
+          <div class="text-content">
+            <h1>Computing Disciplines and Majors</h1>
+            <div class="divider"></div>
+            <ul class="gray">
+              <li>Computing Disciplines</li>
+            </ul>
+          </div>
+          <button onclick="window.location.href='../topic-1/topic-1.html'">Learn More</button>
+        </div>
+        <div class="box">
+          <img src="images\topic-2.png" alt="Topic 2 Image">
+          <div class="text-content">
+            <h1>Data, Information, Information Systems</h1>
+            <div class="divider"></div>
+            <ul class="gray">
+              <li>Data and Information</li>
+              <li>Information Systems</li>
+              <li>Types of Information Systems</li>
+            </ul>
+          </div>
+          <button onclick="window.location.href='../topic-2/topic-2.html'">Learn More</button>
+        </div>
+        <div class="box">
+          <img src="images\topic-3.png" alt="Topic 3 Image">
+          <div class="text-content">
+            <h1>Number Systems</h1>
+            <div class="divider"></div>
+            <ul class="gray">
+              <li>What are Number Systems</li>
+              <li>Types of Number Systems</li>
+            </ul>
+          </div>
+          <button onclick="window.location.href='../topic-3/topic-3.html'">Learn More</button>
+        </div>
+        <div class="box">
+          <img src="images\topic-4.png" alt="Topic 4 Image">
+          <div class="text-content">
+            <h1>Computer Hardware and Software</h1>
+            <div class="divider"></div>
+            <ul class="gray">
+              <li>Computer Hardware</li>
+              <li>Computer Software</li>
+              <li>Implementations of Hardware and Software In Different Situations</li>
+            </ul>
+          </div>
+          <button onclick="window.location.href='../topic-4/topic-4.html'">Learn More</button>
+        </div>
+        <div class="box">
+          <img src="images\topic-5.png" alt="Topic 5 Image">
+          <div class="text-content">
+            <h1>Different Types of Motherboards</h1>
+            <div class="divider"></div>
+            <ul class="gray">
+              <li>Different Types of Motherboards</li>
+            </ul>
+          </div>
+          <button onclick="window.location.href='../topic-5/topic-5.html'">Learn More</button>
+        </div>
+        <div class="box">
+          <img src="images\topic-6.png" alt="Topic 6 Image">
+          <div class="text-content">
+            <h1>Different Types of Computers</h1>
+            <div class="divider"></div>
+            <ul class="gray">
+              <li>Different Types of Computers</li>
+            </ul>
+          </div>
+          <button onclick="window.location.href='../topic-6/topic-6.html'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
